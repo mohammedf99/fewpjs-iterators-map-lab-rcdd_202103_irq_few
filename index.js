@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials.map(tutoria => {
+  return tutorials.map(tutorial => {
     
   })
 }
