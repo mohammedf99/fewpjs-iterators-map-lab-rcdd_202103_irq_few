@@ -17,7 +17,9 @@ const titleCased = () => {
     let sentence = tutorial.split(" ");
     
     for (sent of sentence) {
-      sent = sent[0].toUpperCase + sent.slice(1);
+      sentence = sent[0].toUpperCase + sent.slice(1);
     }
+    
+    return sentence.join()
   })
 }
