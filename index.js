@@ -16,6 +16,6 @@ const titleCased = () => {
     
     let sentence = tutorial.split(" ");
     
-    for
+    sentence.forEach()
   })
 }
