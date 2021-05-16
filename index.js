@@ -20,6 +20,6 @@ const titleCased = () => {
       sentence = sent[0].toUpperCase + sent.slice(1);
     }
     
-    return sentence.join()
+    return sentence.join(" ");
   })
 }
